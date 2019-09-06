@@ -1,0 +1,6 @@
+Aula 2{
+    arquivo env{
+        arquivo de configuração do sistema
+        dados do banco de dados
+    }
+}
