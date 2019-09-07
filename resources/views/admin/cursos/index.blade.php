@@ -27,7 +27,7 @@
                             <td>{{$registro->Publicado}}</td>
                             <td>
                                 <a href="{{route('admin.cursos.editar',  $registro->id)}}" class="btn deep-orange">Editar</a>
-                                <a href="{{route('admin.cursos.deletar',  $registro->id)}}" class="btn deep-red-darken-4">Editar</a>
+                                <a href="{{route('admin.cursos.deletar',  $registro->id)}}" class="btn red darken-4">deletar</a>
                             </td>
                         </tr>
                     @endforeach

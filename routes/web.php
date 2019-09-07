@@ -27,7 +27,7 @@ Route::get('/admin/cursos', ['as' => 'admin.cursos', 'uses' => 'Admin\CursoContr
 
 // Routes para adicionar um curso
 Route::get('/admin/cursos/adicionar', ['as' => 'admin.cursos.adicionar', 'uses' => 'Admin\CursoController@adicionar']);
-Route::post('/admin/cursos/adicionar', ['as' => 'admin.cursos.adicionar', 'uses' => 'Admin\CursoController@adicionar']);
+Route::post('/admin/cursos/salvar', ['as' => 'admin.cursos.salvar', 'uses' => 'Admin\CursoController@salvar']);
 
 // Routes para editar um curso
 Route::post('/admin/cursos/editar/{id}', ['as' => 'admin.cursos.editar', 'uses' => 'Admin\CursoController@editar']);
