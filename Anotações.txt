@@ -1,6 +1,54 @@
 Aula 2{
     arquivo env{
-        arquivo de configuração do sistema
-        dados do banco de dados
+        .arquivo de configuração do sistema
+        .dados do banco de dados
+    }
+}
+Aula 3{
+    Estrutura do Laravel{
+        app{
+            .Diretório principal{
+                .Models dá aplicação{
+                    .models representão as tabelas do banco de dados
+                }
+            }
+            .Http{
+                .contêm os controllers e os middleware
+            }
+        }
+        routes{
+            .contêm todas as rotas dá nossa aplicação
+        }
+        database{
+            migrations{
+                .ajuda na hora de criar as tabelas dá nossa aplicação
+            }
+        }
+    }
+}
+aula4{
+    Routes{
+        Criar uma rota{
+            routes{
+                Route::get('/nome da rota/{nome da variável}', function(nome da variável){
+                    return view('nome da view');
+                });
+
+                tipos{
+                    get
+                    post 
+                    put -> editar algum registro 
+                    delete
+
+                }
+            }
+        }
+    }
+}
+aula6{
+    controllers{
+        Route::get('/', ['uses' => 'ContatoController@index']); //criando rota para a chamado do controllers
+        
+
     }
 }
