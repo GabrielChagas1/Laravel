@@ -23,7 +23,7 @@
                             <td>{{$registro->id}}</td>
                             <td>{{$registro->Titulo}}</td>
                             <td>{{$registro->Descricao}}</td>
-                            <td><img width="120" src="{{asset($registro->Imagem)}}" alt="{{$registro->Titulo}}"></td>
+                            <td><img width="90" src="{{asset($registro->Imagem)}}" alt="{{$registro->Titulo}}"></td>
                             <td>{{$registro->Publicado}}</td>
                             <td>
                                 <a href="{{route('admin.cursos.editar',  $registro->id)}}" class="btn deep-orange">Editar</a>
