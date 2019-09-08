@@ -23,6 +23,9 @@
                 @endif
               @endforeach
         </div> 
+        <div class="row" align="center">
+            {{$registros->links()}}
+        </div>
     </div>
 
 @endsection
